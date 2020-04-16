@@ -22,6 +22,7 @@ package.json - where we specify the dependencies ( including the npm package)
 
 grammars/tree-sitter-delve.cson - where you define the css selectors to highlight different aspects of the code
 
+---
 
 Resources
 
