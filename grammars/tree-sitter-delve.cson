@@ -1,0 +1,31 @@
+scopeName: 'text.delve.basic'
+name: 'Delve'
+type: 'tree-sitter'
+parser: 'tree-sitter-delve-language'
+
+fileTypes: [
+  'delve'
+]
+
+comments:
+    start: '//'
+
+scopes:
+  'true' :  'constant.language'
+  'false' : 'constant.language'
+  '"def"' : 'storage.type.function'
+
+  '"not"' : 'keyword.control'
+
+  '"+"': 'keyword.operator'
+  '"-"': 'keyword.operator'
+  '"*"': 'keyword.operator'
+  '"/"': 'keyword.operator'
+  '"%"': 'keyword.operator'
+  '">"': 'keyword.operator'
+  '"<"': 'keyword.operator'
+  '">="': 'keyword.operator'
+  '"<="': 'keyword.operator'
+  '"="': 'keyword.operator'
+  '"&"': 'keyword.operator'
+  '"|"': 'keyword.operator'

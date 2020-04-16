@@ -1,0 +1,18 @@
+{
+  "name": "language-delve",
+  "main": "./lib/language-delve",
+  "version": "0.0.0",
+  "description": "Language support for Delve from RelationalAI",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "language-delve:toggle"
+  },
+  "repository": "https://github.com/RelationalAI/language-delve",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "tree-sitter-delve-language": "0.0.1"
+  }
+}
