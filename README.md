@@ -1,6 +1,13 @@
 # language-delve package
 
-A short description of your package.
+Until further notice:
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
-# atom-language-delve
+We have an npm package called tree-sitter-delve-language
+this should be installable via npm on the command line
+
+npm install -g tree-sitter-delve-language
+
+
+This repo needs to be installed into Atom ( run from this directory)
+apm install
+
