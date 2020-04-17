@@ -7,7 +7,7 @@ this should be installable via npm on the command line
 
 
 This repo needs to be installed into Atom ( run from this directory)
-```apm install```
+```apm install``` or ``` apm install https://github.com/sjbertolani/atom-language-delve```
 
 Then you need to add the contents of styles.less to the Atom styles.less ( Atom -> stylesheet....). 
 
