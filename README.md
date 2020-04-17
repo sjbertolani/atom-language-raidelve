@@ -41,3 +41,7 @@ https://www.sitepoint.com/how-to-write-a-syntax-highlighting-package-for-atom/
 https://stackoverflow.com/questions/38928523/in-an-atom-package-how-do-i-style-patterns-in-a-grammar
 
 https://acarril.github.io/posts/atom-latex
+
+---
+
+You might need ```npm install -g node-gyp```
