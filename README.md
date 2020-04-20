@@ -6,6 +6,10 @@ To install, from the command line run:
 
 In Atom, you may have to set the language to Delve to get the highlighting to work. It is supposed to autodetect if the file ends in ".delve" but that has not always worked. See the bottom right hand corner for the language setting.
 
+
+Then you need to add the contents of styles.less to the Atom styles.less ( Atom -> stylesheet....). 
+^^^ This will install these color selections globably in your editor. There are other ways to do this. 
+
 ---
 Background
 
@@ -17,7 +21,6 @@ this should be installable via npm on the command line
 This repo needs to be installed into Atom ( run from this directory)
 ```apm install``` or ``` apm install https://github.com/sjbertolani/atom-language-delve```
 
-Then you need to add the contents of styles.less to the Atom styles.less ( Atom -> stylesheet....). 
 
 Then open any file ending in .delve that has code in it.
 
