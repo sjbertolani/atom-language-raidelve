@@ -2,7 +2,7 @@
 
 ## To install, from the command line run:
 
-0 - In order for the apm install command to work, you must have python 2.7 in your PATH. You can check what version is available by typing ```python --version``` . If it is another version, consider modifying your path just for installing this package. You could do something like ```echo $PATH``` and remove any path that leads to another python version ( i.e. ~/anaconda3/bin ). Alternatively, you could do ```export PYTHON=/usr/bin/python2.7```
+0 - In order for the apm install command to work, you must have python 2.7 in your PATH ( due to node-gyp only working with python 2 see issue - https://discuss.atom.io/t/npm-and-gyp-errors-during-apm-install/54658/4). You can check what version is available by typing ```python --version``` . If it is another version, consider modifying your path just for installing this package. You could do something like ```echo $PATH``` and remove any path that leads to another python version ( i.e. ~/anaconda3/bin ). Alternatively, you could do something like-> ```export PYTHON=/usr/bin/python2.7``` <- although I haven't test this.
 
 1 - ``` apm install https://github.com/sjbertolani/atom-language-delve``` This installs the atom package in ~/.atom/packages
 
