@@ -34,6 +34,16 @@ If parsing is working correctly, but the styling is not, you may still see some 
 
 ---
 
+## Broken?
+
+Atom autoupdated and now I see an error when I open Atom that says something about and npm or NODE_MODULE_VERSION mismatch
+    In this case, I found the following to fix it
+      1) Go to your package directory ~/.atom/packages/delve-language and try ```npm rebuild --update-binary & npm install``` **
+      2) Also do ```apm rebuild --update-binary & apm install```.
+      
+      ** I needed to do ```export CC=clang & export CXX=clang++``` to get npm rebuild to run without errors.
+___
+
 ## Background
 
 
