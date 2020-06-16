@@ -34,5 +34,5 @@ scopes:
   'formal_id' : 'formal.id'
   'line_comment' : 'line.comment'
   'block_comment' : 'line.comment'
-  'relname_literal' : 'relation.name'
+  'relname_literal' : 'keyword.control'
 
