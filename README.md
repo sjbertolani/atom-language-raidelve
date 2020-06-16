@@ -10,6 +10,8 @@
 
 3 - In Atom, open a file containing Delve code that has the file extension ".delve". Ideally, you will see some code now highlighted. 
 
+---
+
 You may also need to do the following things depending on your computer.
 
 A - Restart Atom after setting the stylesheet.
