@@ -1,7 +1,7 @@
 {
   "name": "language-delve",
   "main": "./lib/language-delve",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Language support for Delve from RelationalAI",
   "keywords": [],
   "activationCommands": {
