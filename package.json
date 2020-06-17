@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": "language-delve:toggle"
   },
-  "repository": "https://github.com/RelationalAI/language-delve",
+  "repository": "https://github.com/sjbertolani/atom-language-delve",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
