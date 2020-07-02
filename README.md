@@ -1,8 +1,8 @@
-# language-delve package
+# language-raidelve package
 
 ## To install (short)
 
-``` apm install https://github.com/sjbertolani/atom-language-delve```
+``` apm install https://github.com/sjbertolani/atom-language-raidelve```
 
 ___
 
@@ -11,11 +11,11 @@ ___
 
 0 - In order for the apm install command to work, you must have python 2.7 in your PATH ( due to node-gyp only working with python 2 see issue - https://discuss.atom.io/t/npm-and-gyp-errors-during-apm-install/54658/4). You can check what version is available by typing ```python --version``` . If it is another version, consider modifying your path just for installing this package. You could do something like ```echo $PATH``` and remove any path that leads to another python version ( i.e. ~/anaconda3/bin ). Or you could just append ```export PATH=/usr/bin/:$PATH``` assuming you have python 2 in this directory. Alternatively, you could do something like-> ```export PYTHON=/usr/bin/python2.7``` <- although I haven't test this.
 
-1 - ``` apm install https://github.com/sjbertolani/atom-language-delve``` This installs the atom package in ~/.atom/packages
+1 - ``` apm install https://github.com/sjbertolani/atom-language-raidelve``` This installs the atom package in ~/.atom/packages
 
 2 - Start Atom
 
-3 - In Atom, open a file containing Delve code that has the file extension ".delve". Ideally, you will see some code now highlighted. 
+3 - In Atom, open a file containing RaiDelve code that has the file extension ".delve". Ideally, you will see some code now highlighted. 
 
 ---
 
@@ -23,7 +23,7 @@ You may also need to do the following things depending on your computer.
 
 A - Restart Atom after setting the stylesheet.
 
-B - You may have to set the language in Atom to recognize the file as Delve code. It is supposed to autodetect if the file ends in ".delve" but that has not always worked. See the bottom right hand corner of the Atom editor for the language setting.
+B - You may have to set the language in Atom to recognize the file as RaiDelve code. It is supposed to autodetect if the file ends in ".delve" but that has not always worked. See the bottom right hand corner of the Atom editor for the language setting.
 
 C - Add the contents of styles.less from this package into the global stylesheet. You can either find the menu to open "Stylesheet" and paste the contents there. Or you can use the command palette ( ctrl-shift-p ) and search for "Open Your Stylesheet". This is the global style settings for Atom. However, you should get some styling by default in Atom. This just lets you which color gets applied to which subset of tokens.
 
@@ -31,7 +31,7 @@ C - Add the contents of styles.less from this package into the global stylesheet
 ## Debugging why the styling doesn't work
 
 ### Check the parsing is working
-Open a .delve file, set the language to delve. Then place your cursor in front of a keyword ( ex. and ). Then use the command palette ( ctrl-shift-p ) and search for 'Log Cursor Scope'. Select that function and you should see a popup in the editor. If the parser is working correctly, you should see " delve " and "keyword.control". If you see "delve" and something else, you may not have your cursor in front of `and`. If you do not see the word "delve" in the popup, the parser is not working. See step 1. 
+Open a .delve file, set the language to raidelve. Then place your cursor in front of a keyword ( ex. and ). Then use the command palette ( ctrl-shift-p ) and search for 'Log Cursor Scope'. Select that function and you should see a popup in the editor. If the parser is working correctly, you should see "delve " and "keyword.control". If you see "delve" and something else, you may not have your cursor in front of `and`. If you do not see the word "delve" in the popup, the parser is not working. See step 1. 
 
 ### Check the CSS styling is working
 On some machines, you can edit the colors in the styles.less file ( in Atom ) and the colors change immediately. However, I'm not convinced that always works. If the colors change in the delve file when you change them in the styles.less, then your style selection is working. 
@@ -59,7 +59,7 @@ ___
 
 You don't need to do these steps -> unless we need to debug the npm parser. This may happen if we change the grammar and need to update the parser.
 
-We have a delve parser - npm package called ```tree-sitter-delve-language```
+We have a raidelve parser - npm package called ```tree-sitter-delve-language```
 this should be installable via npm on the command line
 
 ```npm install -g tree-sitter-delve-language```
