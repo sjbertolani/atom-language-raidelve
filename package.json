@@ -1,13 +1,13 @@
 {
-  "name": "language-delve",
-  "main": "./lib/language-delve",
+  "name": "language-raidelve",
+  "main": "./lib/language-raidelve",
   "version": "0.5.0",
-  "description": "Language support for Delve from RelationalAI",
+  "description": "Language support for RaiDelve from RelationalAI",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "language-delve:toggle"
+    "atom-workspace": "language-raidelve:toggle"
   },
-  "repository": "https://github.com/sjbertolani/atom-language-delve",
+  "repository": "https://github.com/sjbertolani/atom-language-raidelve",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
