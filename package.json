@@ -1,7 +1,7 @@
 {
   "name": "language-raidelve",
   "main": "./lib/language-raidelve",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Language support for RaiDelve from RelationalAI",
   "keywords": [],
   "activationCommands": {
