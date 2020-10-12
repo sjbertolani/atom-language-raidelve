@@ -1,4 +1,4 @@
-# language-raidelve package
+# atom-language-raidelve package
 
 ## To install (short)
 
