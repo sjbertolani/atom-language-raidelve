@@ -30,19 +30,18 @@ A - You may have to set the language in Atom to recognize the file as RaiDelve c
 Open a .delve file, set the language to raidelve. Then place your cursor in front of a keyword ( ex. and ). Then use the command palette ( ctrl-shift-p ) and search for 'Log Cursor Scope'. Select that function and you should see a popup in the editor. If the parser is working correctly, you should see "delve " and "keyword.control". If you see "delve" and something else, you may not have your cursor in front of `and`. If you do not see the word "delve" in the popup, the parser is not working. See step 1. 
 
 ### Check the CSS styling is working
+_This section may no longer apply as now this package should use your default styling settings._
+
 On some machines, you can edit the colors in the styles.less file ( in Atom ) and the colors change immediately. However, I'm not convinced that always works. If the colors change in the delve file when you change them in the styles.less, then your style selection is working. 
 
 If the colors do not change, or if there are no colors for left-hand-side variables ```def sales_event_type[salesevent]``` <- In this piece of code, if everything is working the ```def``` should be blue and the ```salesevent``` should be green. 
-
-Ways to troubleshoot this are to a) check that the contents of styles.less from this package are saved in the Atom global styesheet ( see step 3 ) or b) restart Atom after you save the contents into the stylesheet. 
-
-If parsing is working correctly, but the styling is not, you may still see some highlighting. This is because Atom has some generic CSS defined for certain keywords that overlap with some of the output from this package.
 
 ---
 
 ## Broken?
 
 Atom autoupdated and now I see an error when I open Atom that says something about and npm or NODE_MODULE_VERSION mismatch
+
     In this case, I found the following to fix it
       1) Go to your package directory ~/.atom/packages/delve-language and try ```npm rebuild --update-binary & npm install``` **
       2) Also do ```apm rebuild --update-binary & apm install```.
