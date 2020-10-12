@@ -21,11 +21,7 @@ ___
 
 You may also need to do the following things depending on your computer.
 
-A - Restart Atom after setting the stylesheet.
-
-B - You may have to set the language in Atom to recognize the file as RaiDelve code. It is supposed to autodetect if the file ends in ".delve" but that has not always worked. See the bottom right hand corner of the Atom editor for the language setting.
-
-C - Add the contents of styles.less from this package into the global stylesheet. You can either find the menu to open "Stylesheet" and paste the contents there. Or you can use the command palette ( ctrl-shift-p ) and search for "Open Your Stylesheet". This is the global style settings for Atom. However, you should get some styling by default in Atom. This just lets you which color gets applied to which subset of tokens.
+A - You may have to set the language in Atom to recognize the file as RaiDelve code. It is supposed to autodetect if the file ends in ".delve" but that has not always worked. See the bottom right hand corner of the Atom editor for the language setting.
 
 
 ## Debugging why the styling doesn't work
