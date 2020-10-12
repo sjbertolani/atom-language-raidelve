@@ -66,8 +66,6 @@ Then open any file ending in .delve that has code in it.
 
 ---
 
-style.less - how we select and color different items. This needs to be added to your styles.less. Ideally, this should get imported as part of the package but I can't figure out how to do that. 
-
 package.json - where we specify the dependencies ( including the npm package)
 
 grammars/tree-sitter-delve.cson - where you define the css selectors to highlight different aspects of the code
